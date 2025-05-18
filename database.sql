@@ -1,7 +1,8 @@
--- Crear la base de datos
-CREATE DATABASE IF NOT EXISTS mikrotik_users;
+-- Si tu proveedor te asignó una base de datos, comenta o elimina la siguiente línea
+-- CREATE DATABASE IF NOT EXISTS mikrotik_users;
 
--- Usar la base de dato
+-- Selecciona la base de datos asignada (reemplaza "tu_base_de_datos" por el nombre correcto) o elimina la línea si ya se selecciona
+-- USE tu_base_de_datos;
 
 -- Crear tabla de usuarios (si no existe)
 CREATE TABLE IF NOT EXISTS users (
