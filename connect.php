@@ -1,6 +1,6 @@
 <?php
 // Configuración de la base de datos
-$host = "localhost"; // Cambia esto por tu host de MySQL
+$host = "https://mikrotik-qwkw.vercel.app/"; // Cambia esto por tu host de MySQL
 $username = "root"; // Cambia esto por tu usuario de MySQL
 $password = ""; // Cambia esto a "" si tu usuario root no tiene contraseña
 $database = "mikrotik_users"; // Cambia esto por el nombre de tu base de datos
