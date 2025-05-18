@@ -1,7 +1,7 @@
 <?php
 // Incluir archivo de conexión
 require_once 'connect.php';
-    $db_server = "localhost";
+    $db_server = "https://mikrotik-qwkw.vercel.app/";
     $db_username = "root";
     $db_password = "";
     $db_name = "mikrotik_users";
