@@ -4,7 +4,7 @@ require_once 'connect.php';
     $db_server = "https://mikrotik-qwkw.vercel.app/";
     $db_username = "root";
     $db_password = "";
-    $db_name = "mikrotik_users";
+    $db_name = "mikrotik-qwkw";
     // Crear conexión
     $conn = new mysqli($db_server, $db_username, $db_password, $db_name);
     // Verificar conexión
